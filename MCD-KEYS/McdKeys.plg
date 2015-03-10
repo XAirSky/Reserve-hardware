@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: McdKeys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kiran.gss\LOCALS~1\Temp\RSP766.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/McdKeys.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Palmer\McdKeys\McdKeysDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kiran.gss\LOCALS~1\Temp\RSP766.tmp" 
+Creating command line "link.exe inpout32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/McdKeys.pdb" /debug /machine:I386 /out:"Debug/McdKeys.exe" /pdbtype:sept  ".\Debug\McdKeys.obj" ".\Debug\McdKeysDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\McdKeys.res" "
+<h3>Output Window</h3>
+Compiling...
+McdKeysDlg.cpp
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(137) : warning C4005: 'MATKB_COL0' : macro redefinition
+        D:\My Palmer\McdKeys\McdKeysDlg.cpp(20) : see previous definition of 'MATKB_COL0'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(138) : warning C4005: 'MATKB_COL1' : macro redefinition
+        D:\My Palmer\McdKeys\McdKeysDlg.cpp(21) : see previous definition of 'MATKB_COL1'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(139) : warning C4005: 'MATKB_COL2' : macro redefinition
+        D:\My Palmer\McdKeys\McdKeysDlg.cpp(22) : see previous definition of 'MATKB_COL2'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(140) : warning C4005: 'MATKB_COL3' : macro redefinition
+        D:\My Palmer\McdKeys\McdKeysDlg.cpp(23) : see previous definition of 'MATKB_COL3'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(637) : warning C4305: 'initializing' : truncation from 'const int' to 'unsigned char'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(637) : warning C4309: 'initializing' : truncation of constant value
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(643) : warning C4305: 'initializing' : truncation from 'const int' to 'unsigned char'
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(643) : warning C4309: 'initializing' : truncation of constant value
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(890) : warning C4060: switch statement contains no 'case' or 'default' labels
+D:\My Palmer\McdKeys\McdKeysDlg.cpp(1366) : warning C4700: local variable 'colNum' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/McdKeys.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\McdKeys.sbr" ".\Debug\McdKeysDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+McdKeys.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

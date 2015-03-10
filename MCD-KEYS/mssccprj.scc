@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[McdKeys.dsp]
+SCC_Aux_Path = "\\bmphktpams028\MCD2_VSS\"
+SCC_Project_Name = "$/MCD2/Source/Keypad Emulation", JJCAAAAA
